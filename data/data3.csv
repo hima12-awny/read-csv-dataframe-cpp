@@ -1,0 +1,156 @@
+Manufacturer,Model,Unit Sales,Price,Retention Value,Engine Size,Horsepower,HP Level
+Acura,Integra,16919,21500.0,GOOD,1.8,140,Medium HP
+Acura,TL,39384,28400.0,GOOD,3.2,225,Medium HP
+Acura,RL,8588,42000.0,GOOD,3.5,210,Medium HP
+Audi,A4,20397,23990.0,GOOD,1.8,150,Medium HP
+Audi,A6,18780,33950.0,GOOD,2.8,200,Medium HP
+Audi,A8,1380,62000.0,POOR,4.2,310,High HP
+BMW,323i,19747,26990.0,GOOD,2.5,170,Medium HP
+BMW,328i,9231,33400.0,GOOD,2.8,193,Medium
+BMW,528i,17527,38900.0,GOOD,2.8,193,Medium HP
+Buick,Century,91561,21975.0,POOR,3.1,175,Medium HP
+Buick,Regal,39350,25300.0,POOR,3.8,240,Medium HP
+Buick,Park Avenue,27851,31965.0,POOR,3.8,205,Medium HP
+Buick,LeSabre,83257,27885.0,POOR,3.8,205,Medium HP
+Cadillac,DeVille,63729,39895.0,POOR,4.6,275,Medium HP
+Cadillac,Seville,15943,44475.0,POOR,4.6,275,Medium HP
+Cadillac,Eldorado,6536,39665.0,POOR,4.6,275,Medium HP
+Cadillac,Catera,11185,31010.0,POOR,3.0,200,Medium HP
+Cadillac,Escalade,14785,46225.0,POOR,5.7,255,Medium HP
+Chevrolet,Cavalier,145519,13260.0,GOOD,2.2,115,Medium HP
+Chevrolet,Malibu,135126,16535.0,POOR,3.1,170,Medium HP
+Chevrolet,Lumina,24629,18890.0,POOR,3.1,175,Medium HP
+Chevrolet,Monte Carlo,42593,19390.0,POOR,3.4,180,Medium HP
+Chevrolet,Camaro,26402,24340.0,POOR,3.8,200,Medium HP
+Chevrolet,Corvette,17947,55705.0,POOR,5.7,345,High HP
+Chevrolet,Prizm,32299,13960.0,POOR,1.8,120,Medium HP
+Chevrolet,Metro,21855,9235.0,POOR,1.0,55,Low HP
+Chevrolet,Impala,107995,18890.0,POOR,3.4,180,Medium HP
+Chrysler,Sebring Coupe,7854,19840.0,POOR,2.5,163,Medium HP
+Chrysler,Sebring Conv.,32775,24495.0,POOR,2.5,168,Medium HP
+Chrysler,Concorde,31148,22245.0,POOR,2.7,200,Medium HP
+Chrysler,Cirrus,32306,16480.0,GOOD,2.0,132,Medium HP
+Chrysler,LHS,13462,28340.0,POOR,3.5,253,Medium HP
+Chrysler,300M,30696,29185.0,POOR,3.5,253,Medium HP
+Dodge,Neon,76034,12640.0,POOR,2.0,132,Medium HP
+Dodge,Avenger,4734,19045.0,POOR,2.5,163,Medium HP
+Dodge,Stratus,71186,20230.0,POOR,2.5,168,Medium HP
+Dodge,Intrepid,88028,22505.0,POOR,2.7,202,Medium HP
+Dodge,Viper,916,69725.0,GOOD,8.0,450,High HP
+Dodge,Ram Pickup,227061,19460.0,GOOD,5.2,230,Medium HP
+Dodge,Ram Wagon,16767,21315.0,GOOD,3.9,175,Medium HP
+Dodge,Ram Van,31038,18575.0,GOOD,3.9,175,Medium HP
+Dodge,Dakota,111313,16980.0,POOR,2.5,120,Medium HP
+Dodge,Durango,101323,26310.0,GOOD,5.2,230,Medium HP
+Dodge,Caravan,181749,19565.0,POOR,2.4,150,Medium HP
+Ford,Escort,70227,12070.0,POOR,2.0,110,Medium HP
+Ford,Mustang,113369,21560.0,POOR,3.8,190,Medium HP
+Ford,Contour,35068,17035.0,POOR,2.5,170,Medium HP
+Ford,Taurus,245815,17885.0,POOR,3.0,155,Medium HP
+Ford,Focus,175670,12315.0,GOOD,2.0,107,Medium HP
+Ford,Crown Victoria,63403,22195.0,POOR,4.6,200,Medium HP
+Ford,Explorer,276747,31930.0,POOR,4.0,210,Medium HP
+Ford,Windstar,155787,21410.0,POOR,3.0,150,Medium HP
+Ford,Expedition,125338,36135.0,POOR,4.6,240,Medium HP
+Ford,Ranger,220650,12050.0,POOR,2.5,119,Medium HP
+Ford,F-Series,540561,26935.0,POOR,4.6,220,Medium HP
+Honda,Civic,199685,12885.0,GOOD,1.6,106,Medium HP
+Honda,Accord,230902,15350.0,GOOD,2.3,135,Medium HP
+Honda,CR-V,73203,20550.0,GOOD,2.0,146,Medium HP
+Honda,Passport,12855,26600.0,POOR,3.2,205,Medium HP
+Honda,Odyssey,76029,26000.0,GOOD,3.5,210,Medium HP
+Hyundai,Accent,41184,9699.0,POOR,1.5,92,Low HP
+Hyundai,Elantra,66692,11799.0,POOR,2.0,140,Medium HP
+Hyundai,Sonata,29450,14999.0,POOR,2.4,148,Medium HP
+Infiniti,I30,23713,29465.0,POOR,3.0,227,Medium HP
+Jaguar,S-Type,15467,42800.0,GOOD,3.0,240,Medium HP
+Jeep,Wrangler,55557,14460.0,GOOD,2.5,120,Medium HP
+Jeep,Cherokee,80556,21620.0,POOR,4.0,190,Medium HP
+Jeep,Grand Cherokee,157040,26895.0,GOOD,4.0,195,Medium HP
+Lexus,ES300,24072,31505.0,GOOD,3.0,210,Medium HP
+Lexus,GS300,12698,37805.0,GOOD,3.0,225,Medium HP
+Lexus,GS400,3334,46305.0,GOOD,4.0,300,High HP
+Lexus,LS400,6375,54005.0,GOOD,4.0,290,Medium HP
+Lexus,LX470,9126,60105.0,GOOD,4.7,230,Medium HP
+Lexus,RX300,51238,34605.0,GOOD,3.0,220,Medium HP
+Lincoln,Continental,13798,39080.0,POOR,4.6,275,Medium HP
+Lincoln,Town car,48911,43330.0,POOR,4.6,215,Medium HP
+Lincoln,Navigator,22925,42660.0,POOR,5.4,300,High HP
+Mitsubishi,Mirage,26232,13987.0,POOR,1.8,113,Medium HP
+Mitsubishi,Eclipse,42541,19047.0,POOR,2.4,154,Medium HP
+Mitsubishi,Galant,55616,17357.0,POOR,2.4,145,Medium HP
+Mitsubishi,Diamante,5711,24997.0,POOR,3.5,210,Medium HP
+Mitsubishi,3000GT,110,25450.0,GOOD,3.0,161,Medium HP
+Mitsubishi,Montero,11337,31807.0,POOR,3.5,200,Medium HP
+Mitsubishi,Montero Sport,39348,22527.0,POOR,3.0,173,Medium HP
+Mercury,Mystique,14351,16240.0,POOR,2.0,125,Medium HP
+Mercury,Cougar,26529,16540.0,GOOD,2.0,125,Medium HP
+Mercury,Sable,67956,19035.0,POOR,3.0,153,Medium HP
+Mercury,Grand Marquis,81174,22605.0,POOR,4.6,200,Medium HP
+Mercury,Mountaineer,27609,27560.0,GOOD,4.0,210,Medium HP
+Mercury,Villager,20380,22510.0,POOR,3.3,170,Medium HP
+Mercedes-B,C-Class,18392,31750.0,GOOD,2.3,185,Medium HP
+Mercedes-B,E-Class,27602,49900.0,GOOD,3.2,221,Medium HP
+Mercedes-B,S-Class,16774,69700.0,GOOD,4.3,275,Medium HP
+Mercedes-B,SL-Class,3311,82600.0,GOOD,5.0,302,High HP
+Mercedes-B,SLK,7998,38900.0,GOOD,2.3,190,Medium HP
+Mercedes-B,SLK230,1526,41000.0,GOOD,2.3,185,Medium HP
+Mercedes-B,CLK Coupe,11592,41600.0,GOOD,3.2,215,Medium HP
+Mercedes-B,CL500,954,85500.0,GOOD,5.0,302,High HP
+Mercedes-B,M-Class,28976,35300.0,GOOD,3.2,215,Medium HP
+Nissan,Sentra,42643,13499.0,POOR,1.8,126,Medium HP
+Nissan,Altima,88094,20390.0,POOR,2.4,155,Medium HP
+Nissan,Maxima,79853,26249.0,POOR,3.0,222,Medium HP
+Nissan,Quest,27308,26399.0,POOR,3.3,170,Medium HP
+Nissan,Pathfinder,42574,29299.0,POOR,3.3,170,Medium HP
+Nissan,Xterra,54158,22799.0,POOR,3.3,170,Medium HP
+Nissan,Frontier,65005,17890.0,POOR,3.3,170,Medium HP
+Oldsmobile,Cutlass,1112,18145.0,POOR,3.1,150,Medium HP
+Oldsmobile,Intrigue,38554,24150.0,GOOD,3.5,215,Medium HP
+Oldsmobile,Alero,80255,18270.0,POOR,2.4,150,Medium HP
+Oldsmobile,Aurora,14690,36229.0,POOR,4.0,250,Medium HP
+Oldsmobile,Bravada,20017,31598.0,POOR,4.3,190,Medium HP
+Oldsmobile,Silhouette,24361,25345.0,POOR,3.4,185,Medium HP
+Plymouth,Neon,32734,12640.0,POOR,2.0,132,Medium HP
+Plymouth,Breeze,5240,16080.0,POOR,2.0,132,Medium HP
+Plymouth,Voyager,24155,18850.0,POOR,2.4,150,Medium HP
+Plymouth,Prowler,1872,43000.0,GOOD,3.5,253,Medium HP
+Pontiac,Sunfire,51645,21610.0,POOR,2.4,150,Medium HP
+Pontiac,Grand Am,131097,19720.0,POOR,3.4,175,Medium HP
+Pontiac,Firebird,19911,25310.0,GOOD,3.8,200,Medium HP
+Pontiac,Grand Prix,92364,21665.0,POOR,3.8,195,Medium HP
+Pontiac,Bonneville,35945,23755.0,POOR,3.8,205,Medium HP
+Pontiac,Montana,39572,25635.0,POOR,3.4,185,Medium HP
+Porsche,Boxter,8982,41430.0,GOOD,2.7,217,Medium HP
+Porsche,Carrera Coupe,1280,71020.0,GOOD,3.4,300,High HP
+Porsche,Carrera Cabrio,1866,74970.0,GOOD,3.4,300,High HP
+Saab,5-Sep,9191,33120.0,POOR,2.3,170,Medium HP
+Saab,3-Sep,12115,26100.0,GOOD,2.0,185,Medium HP
+Saturn,SL,80620,10685.0,GOOD,1.9,100,Medium HP
+Saturn,SC,24546,12535.0,GOOD,1.9,100,Medium HP
+Saturn,SW,5223,14290.0,GOOD,1.9,124,Medium HP
+Saturn,LW,8472,18835.0,GOOD,2.2,137,Medium HP
+Saturn,LS,49989,15010.0,POOR,2.2,137,Medium HP
+Subaru,Outback,47107,22695.0,GOOD,2.5,165,Medium HP
+Subaru,Forester,33028,20095.0,GOOD,2.5,165,Medium HP
+Toyota,Corolla,142535,13108.0,GOOD,1.8,120,Medium HP
+Toyota,Camry,247994,17518.0,GOOD,2.2,133,Medium HP
+Toyota,Avalon,63849,25545.0,GOOD,3.0,210,Medium HP
+Toyota,Celica,33269,16875.0,GOOD,1.8,140,Medium HP
+Toyota,Tacoma,84087,11528.0,GOOD,2.4,142,Medium HP
+Toyota,Sienna,65119,22368.0,GOOD,3.0,194,Medium HP
+Toyota,RAV4,25106,16888.0,GOOD,2.0,127,Medium HP
+Toyota,4Runner,68411,22288.0,GOOD,2.7,150,Medium HP
+Toyota,Land Cruiser,9835,51728.0,POOR,4.7,230,Medium HP
+Volkswagen,Golf,9761,14900.0,GOOD,2.0,115,Medium HP
+Volkswagen,Jetta,83721,16700.0,GOOD,2.0,115,Medium HP
+Volkswagen,Passat,51102,21200.0,GOOD,1.8,150,Medium HP
+Volkswagen,Cabrio,9569,19990.0,GOOD,2.0,115,Medium HP
+Volkswagen,GTI,5596,17500.0,GOOD,2.0,115,Medium HP
+Volkswagen,Beetle,49463,15900.0,GOOD,2.0,115,Medium HP
+Volvo,S40,16957,23400.0,POOR,1.9,160,Medium HP
+Volvo,V40,3545,24400.0,POOR,1.9,160,Medium HP
+Volvo,S70,15245,27500.0,POOR,2.4,168,Medium HP
+Volvo,V70,17531,28800.0,GOOD,2.4,168,Medium HP
+Volvo,C70,3493,45500.0,GOOD,2.3,236,Medium HP
+Volvo,S80,18969,36000.0,GOOD,2.9,201,Medium HP

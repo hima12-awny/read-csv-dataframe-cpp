@@ -144,7 +144,7 @@
     <ClCompile Include="pandascpp\ObjectDs\StringDs\String.cpp" />
     <ClCompile Include="pandascpp\sort_cls\Sort.cpp" />
     <ClCompile Include="pandascpp\tableclass\Table.cpp" />
-    <ClCompile Include="usage_example_.cpp" />
+    <ClCompile Include="tests.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pandascpp\columnDs\column.h" />

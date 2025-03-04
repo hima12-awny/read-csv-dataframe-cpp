@@ -155,6 +155,59 @@ int main() {
     return 0;
 }
 ```
+### Example Using User-Defined Sorting Algorithms with column
+```cpp
+
+#include "pandascpp/columnDs/column.h"
+#include "pandascpp/sort_cls/Sort.h"
+#include <iostream>
+
+int main() {
+    // Step 1: Create a column with sales data
+    column sales("Sales", Object::rand_nums(10, 1000, 0, 0));
+
+    // Step 2: Sort using different algorithms from Sort class
+    std::cout << "Original Sales Data:\n";
+    cout << sales << endl; 
+
+    // Heap Sort (ascending)
+    column heapSorted = sales.sortAndGetCol(false , SortAlgo::heap);
+    heapSorted.set_name("HeapSorted");
+
+    std::cout << "\nHeap Sort (Ascending):\n";
+    cout << heapSorted << endl;
+
+    // Quick Sort (ascending)
+    column quickSorted = sales.sortAndGetCol(false, SortAlgo::quick);
+    quickSorted.set_name("QuickSorted");
+    std::cout << "\nQuick Sort (Descending):\n";
+    cout << quickSorted << endl;
+
+    // Merge Insertion Sort (ascending)
+    column mergeInsertSorted = sales.sortAndGetCol(false, SortAlgo::merge_and_insertion);
+    mergeInsertSorted.set_name("MergeInsertSorted");
+    std::cout << "\nMergeInsertSorted Sort (Descending):\n";
+    cout << mergeInsertSorted << endl;
+
+
+    // Step 3: Test sorting efficiency with Sort::test
+    std::cout << "\nTesting Sorting Algorithms Efficiency:\n";
+    vector<SortAlgo> algos = { 
+        SortAlgo::heap, 
+        SortAlgo::quick, 
+        SortAlgo::merge_and_insertion 
+    };
+
+    bool is_passed;
+    float time_taken;
+    for (SortAlgo algo : algos) {
+        Sort::test_sort_algo(sales.values, algo, false, is_passed, time_taken);
+    }
+
+    return 0;
+}
+```
+
 
 ### DataFrame Examples
 
@@ -279,4 +332,5 @@ For full details, see more in [column.h](https://github.com/hima12-awny/read-csv
 # Made by ***Ibrahim Awny*** Feel free to contact me.
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/ibrahim-awny/)
 [![Gmail](https://img.shields.io/badge/Gmail-Email-red?logo=gmail)](mailto:hima12awny@gmail.com)
+
 

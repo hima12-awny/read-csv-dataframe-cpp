@@ -42,7 +42,7 @@
     <ClCompile Include="pandascpp\tableclass\Table.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="usage_example_.cpp">
+    <ClCompile Include="tests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

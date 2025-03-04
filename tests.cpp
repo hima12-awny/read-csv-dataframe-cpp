@@ -7,37 +7,6 @@
 
 using namespace std;
 
-// Overloaded operators for pretty printing
-template <typename T>
-ostream& operator<<(ostream& os, const vector<T>& vec) {
-    os << "[";
-    for (size_t i = 0; i < vec.size(); ++i) {
-        os << vec[i];
-        if (i != vec.size() - 1) os << ",  ";
-    }
-    os << "]";
-    return os;
-}
-
-template <typename T>
-ostream& operator<<(ostream& os, const set<T>& set_) {
-    os << "[";
-    size_t i = 0;
-    for (const T& value : set_) {
-        os << value;
-        if (i++ != set_.size() - 1) os << ", ";
-    }
-    os << "]";
-    return os;
-}
-
-// Debug print macro
-#define dprint(var) DPrint(#var, var)
-template <typename T>
-void DPrint(const string& var_name, const T& var_value) {
-    cout << var_name << " = " << var_value << endl;
-}
-
 void printTestResult(const string& testName, bool passed, int& passedCount, int& totalCount) {
     const int WIDTH = 50;
 
@@ -428,3 +397,4 @@ int main() {
     
     return 0;
 }
+

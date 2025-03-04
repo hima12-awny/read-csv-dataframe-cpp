@@ -167,31 +167,31 @@ int main() {
     column sales("Sales", Object::rand_nums(10, 1000, 0, 0));
 
     // Step 2: Sort using different algorithms from Sort class
-    std::cout << "Original Sales Data:\n";
+    cout << "Original Sales Data:\n";
     cout << sales << endl; 
 
     // Heap Sort (ascending)
     column heapSorted = sales.sortAndGetCol(false , SortAlgo::heap);
     heapSorted.set_name("HeapSorted");
 
-    std::cout << "\nHeap Sort (Ascending):\n";
+    cout << "\nHeap Sort (Ascending):\n";
     cout << heapSorted << endl;
 
     // Quick Sort (ascending)
     column quickSorted = sales.sortAndGetCol(false, SortAlgo::quick);
     quickSorted.set_name("QuickSorted");
-    std::cout << "\nQuick Sort (Descending):\n";
+    cout << "\nQuick Sort (Descending):\n";
     cout << quickSorted << endl;
 
     // Merge Insertion Sort (ascending)
     column mergeInsertSorted = sales.sortAndGetCol(false, SortAlgo::merge_and_insertion);
     mergeInsertSorted.set_name("MergeInsertSorted");
-    std::cout << "\nMergeInsertSorted Sort (Descending):\n";
+    cout << "\nMergeInsertSorted Sort (Descending):\n";
     cout << mergeInsertSorted << endl;
 
 
     // Step 3: Test sorting efficiency with Sort::test
-    std::cout << "\nTesting Sorting Algorithms Efficiency:\n";
+    cout << "\nTesting Sorting Algorithms Efficiency:\n";
     vector<SortAlgo> algos = { 
         SortAlgo::heap, 
         SortAlgo::quick, 
@@ -240,7 +240,7 @@ int main() {
     cout << subset; // Output: Table with only Name column
 
     auto row = df.iloc(1);
-    std::cout << "Row 1: Name=" << row["Name"] << ", Age=" << row["Age"] << "\n";
+    cout << "Row 1: Name=" << row["Name"] << ", Age=" << row["Age"] << "\n";
     // Output: Row 1: Name=Bob, Age=30
     return 0;
 }
